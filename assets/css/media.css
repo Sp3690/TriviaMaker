@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .header_logo {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .header_logo .logo {
+        width: 180px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .header_right {
+        flex-direction: column;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header_right ul {
+        flex-direction: column;
+    }
+
+    .header_right ul li {
+        margin: 10px 0;
+    }
+
+    .main {
+        height: auto;
+        padding: 20px;
+    }
+
+    .main .spring, 
+    .main .sale {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .button, .button-secondary {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .brand_logo, .br_logo {
+        flex-direction: column;
+    }
+
+    .br_logo img {
+        width: 100px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-section video {
+        width: 100%;
+        height: auto;
+    }
+
+    .buttons .btn {
+        width: 100%;
+    }
+
+    .game_style {
+        width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .game_img img {
+        width: 150px;
+        height: auto;
+    }
+
+    .remote_img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .clas {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cls_left, .cls_right {
+        width: 100%;
+    }
+
+    .cls_h {
+        font-size: 24px;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    ul li {
+        font-size: 12px;
+    }
+
+    .entire {
+        padding: 15px;
+    }
+
+    .ent {
+        font-size: 20px;
+    }
+}
