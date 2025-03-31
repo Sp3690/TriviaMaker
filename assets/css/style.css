@@ -387,3 +387,161 @@ ul li {
     text-align: center;
     text-decoration: none; 
 }
+/* youtube */
+.teach{
+    background-color: white;
+    color: #515151;
+}
+.emp_h{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.video_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40PX;
+}
+.video_container video{
+    width: 713px;
+    height: 400px;
+}
+/*  Virtual or In-Person */
+.virtual{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #7de2cf 0%, #6ea9d3 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.virtual_img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.step_img{
+    width: 510px;
+    height: 698px;
+}
+.person_text{
+    width: 50%;
+
+}
+.person_t{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+/*  Your Phone, Tablet, or Computer. */
+.phone{
+    background-color: white;
+    color: #515151;
+}
+.phone_txt{
+    margin-top: 30px;
+}
+.phone_t{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+.phone_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.iphone{
+    width: 240px;
+    height: 390px;
+}
+.iphone .ios{
+    flex-direction: column;
+}
+
+.computer{
+    width: 540px;
+    height: 410px;
+}
+.galaxy{
+    width: 240px;
+    height: 375px;
+}
+/* gradient color */
+.color{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #007277 0%, #72ccd0 100%);
+    padding: 90px 0 0;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+/* Host it Like a Pro */
+.host{
+    background-color: #73ccd0;
+    color: white;
+}
+.host_txt h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+}
+.host_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.host_img img{
+    width: 1140px;
+    height: 347px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+/* No Stage is Too Big */
+.no_s{
+    padding-top:60px ;
+}
+.no_h{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.no_video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.big_h{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.big_btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.big_btn a{
+    background-color: #6ec1e4; 
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+}
+/* Full Customization  */
+
+.full{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #273741 0%, #72ccd0 100%);
+    opacity: 1;
+}
