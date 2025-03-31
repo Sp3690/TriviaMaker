@@ -138,4 +138,54 @@
     .ent {
         font-size: 20px;
     }
+   .companies {
+        text-align: center;
+    }
+    .com_img {
+        flex-wrap: wrap;
+    }
+    .com_img img {
+        width: 120px;
+        height: auto;
+        margin: 10px;
+    }
+    .video_container video {
+        width: 90%;
+        height: auto;
+    }
+    .virtual {
+        flex-direction: column;
+        text-align: center;
+    }
+    .virtual_img, .person_text {
+        width: 100%;
+    }
+    .step_img {
+        width: 90%;
+        height: auto;
+    }
+    .phone_img {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .iphone, .computer, .galaxy {
+        width: 80%;
+        height: auto;
+    }
+    .devices{
+        width: 300px !important;
+        height: 100px !important;
+    }
+    .no_video {
+        flex-direction: column;
+        text-align: center;
+    }
+    .big_btn {
+        flex-direction: column;
+    }
+    .big_btn a {
+        margin-top: 10px;
+    }
+
+
 }
